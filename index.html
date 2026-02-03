@@ -102,6 +102,48 @@
             </div>
         </div>
     </section>
+    
+        <section id="privacy" class="container privacy-section">
+        <p>
+            Privasi lo aman. Kita cuma butuh Mic buat denger nada, bukan denger curhat lo. 
+            <br>
+            <span class="privacy-toggle" onclick="togglePrivacy()">Baca Privacy Policy Lengkap</span>
+        </p>
+        
+        <div id="privacyText" class="privacy-content">
+            <h3 style="color: #fff; margin-bottom: 15px;">Privacy Policy for PurrTune</h3>
+            <p><strong>Effective Date:</strong> Feb 4, 2026</p>
+            <br>
+            <ul style="list-style: disc; padding-left: 20px; color: #cbd5e1;">
+                <li style="margin-bottom: 10px;">
+                    <strong>Microphone Permission:</strong> 
+                    Aplikasi ini membutuhkan izin mikrofon (RECORD_AUDIO) <u>HANYA</u> untuk mendeteksi frekuensi suara gitar secara real-time.
+                </li>
+                <li style="margin-bottom: 10px;">
+                    <strong>No Data Collection:</strong> 
+                    Suara diproses 100% Offline di dalam RAM HP lo. Tidak ada data suara yang direkam, disimpan, atau dikirim ke server mana pun.
+                </li>
+                <li style="margin-bottom: 10px;">
+                    <strong>Third Party:</strong> 
+                    Aplikasi ini tidak menggunakan layanan pelacak (tracker) atau analitik pihak ketiga yang mengambil data pribadi.
+                </li>
+            </ul>
+            <br>
+            <p>Contact Developer: [MASUKKAN EMAIL LO DISINI]</p>
+        </div>
+    </section>
+
+    <script>
+        function togglePrivacy() {
+            const x = document.getElementById("privacyText");
+            if (x.style.display === "block") {
+                x.style.display = "none";
+            } else {
+                x.style.display = "block";
+            }
+        }
+    </script>
+
 
     <footer>
         <p>&copy; 2026 PurrTune.</p>
