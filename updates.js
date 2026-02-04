@@ -17,7 +17,7 @@ const appUpdates = [
     {
         version: "v1.0.0",
         date: "Jan 25, 2026",
-        title: "Initial Release",
+        title: "Initial Release 🐾",
         changes: [
             "Rilis perdana PurrTune.",
             "Fitur: Auto Mode & Manual String Selection.",
